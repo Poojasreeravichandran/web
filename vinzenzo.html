@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .series{
+            background-image: url(https://www.comingsoon.net/wp-content/uploads/sites/3/2023/09/Vincenzo.jpg);
+            background-size: 100vw 100vh;
+            height: 100vh;
+        }
+        .title{
+            justify-content: left;
+            color: white;
+            margin: 40px;
+            position: absolute;
+            bottom: 60px;
+            cursor: pointer;
+        }
+        .director{
+            color: white;
+            justify-content: left;
+            margin: 70px;
+            position: absolute;
+            bottom: 10px;    
+        }
+        
+        .hidden {
+            display: none;
+            color: white;
+            margin: 10px;
+            position: absolute;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.7); 
+            padding: 10px;
+            width: 90%; 
+            
+        }        
+        .vm:hover  .hidden{  
+            display: block
+        }
+        .vm .para{
+            color:rgb(142, 145, 142);
+           font-size: 16px;
+           position: absolute;
+           bottom: 150px;
+           display: none;
+        }
+        .vm .para1{
+            color:rgb(214, 224, 219);
+           font-size: 20px;
+           position: absolute;
+           top:  550px;
+           bottom: 410px;
+           display: none;
+        }
+        .vm.para2{
+            color: black;
+            font-size: 22px;
+            position: absolute;
+            top: 550px;
+            bottom: 410px;
+            display: none;
+        }
+        .vm .para3{
+            color:rgb(214, 224, 219);
+           font-size: 20px;
+           position: absolute;
+           bottom: 370px;
+           display: none;
+        }
+        .vm:hover .para{
+            display:block;
+        }
+        .vm:hover .para1{
+            display:inline;
+        }
+        .vm:hover .para2{
+            display:inline;
+        }
+        
+        
+        .vm:hover button{
+        display:inline;
+        position: absolute;
+        bottom: 15px;
+       }
+       button{
+          color:rgb(18, 19, 18);
+           font-size: 12px;
+           position: absolute;
+           margin-top: 10px ;
+           display: none;
+           cursor: pointer;
+          
+       }
+        </style>
+</head>
+<body>
+    <main>
+        <div class="series">
+            <div class="vm">
+        <h1 class="title">VINCENZO</h1>
+        <div  class="director">Kim Hee-won</div>
+        <div class="para1">Release date February 21, 2021 (United Kingdom)</div>
+            <div class="para2">Language Korean</div>
+            
+        <div class="para">During a visit to his motherland, a Korean-Italian mafia lawyer<br> gives an unrivaled conglomerate a taste of its own medicine <br>with a side of justice. Watch all you want.</div>
+        <br><br>
+        <button>
+            Play Now
+        </button>
+        </div>
+        </div>
+    </main>
+</body>
+</html>
+

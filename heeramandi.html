@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .series{
+            background-image: url(https://www.bollywoodhungama.com/wp-content/uploads/2018/12/Heeramandi.jpg);
+            background-size: 100vw 100vh;
+            height: 100vh;
+        }
+        .title{
+            justify-content: left;
+            color: white;
+            margin: 40px;
+            position: absolute;
+            bottom: 60px;
+            cursor: pointer;
+        }
+        .director{
+            color: white;
+            justify-content: left;
+            margin: 70px;
+            position: absolute;
+            bottom: 10px;    
+        }
+        
+        .hidden {
+            display: none;
+            color: white;
+            margin: 10px;
+            position: absolute;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.7); 
+            padding: 10px;
+            width: 90%; 
+            
+        }        
+        .vm:hover  .hidden{  
+            display: block
+        }
+        .vm .para{
+            color:rgb(142, 145, 142);
+           font-size: 16px;
+           position: absolute;
+           bottom: 150px;
+           display: none;
+        }
+        .vm .para1{
+            color:rgb(214, 224, 219);
+           font-size: 20px;
+           position: absolute;
+           top:  560px;
+           bottom: 400px;
+           display: none;
+        }
+        .vm.para2{
+            color: black;
+            font-size: 22px;
+            position: absolute;
+            top: 550px;
+            bottom: 410px;
+            display: none;
+        }
+        .vm .para3{
+            color:rgb(214, 224, 219);
+           font-size: 20px;
+           position: absolute;
+           bottom: 370px;
+           display: none;
+        }
+        .vm:hover .para{
+            display:block;
+        }
+        .vm:hover .para1{
+            display:inline;
+        }
+        .vm:hover .para2{
+            display:inline;
+        }
+        
+        
+       .vm:hover button{
+        display:inline;
+        position: absolute;
+        bottom: 15px;
+       }
+       button{
+          color:rgb(18, 19, 18);
+           font-size: 12px;
+           position: absolute;
+           margin-top: 10px ;
+           display: none;
+           cursor: pointer;
+          
+       }
+        </style>
+</head>
+<body>
+    <main>
+        <div class="series">
+            <div class="vm">
+        <h1 class="title">HEERAMANDI</h1>
+        <div  class="director"> Sanjay Leela Bhansali</div>
+        <div class="para1">Release date 1 May 2024 (India)</div>
+            <div class="para2">Hindustani</div>
+            
+        <div class="para">The series is about the lives of tawaifs in the red-light district of Heera Mandi in Lahore<br> during the Indian independence movement against the British Raj.<br>It stars Manisha Koirala, Sonakshi Sinha, Aditi Rao Hydari, Richa Chadha and Taha Shah Badussha.</div>
+        <button>
+            Play Now
+        </button>
+        </div>
+        </div>
+    </main>
+</body>
+</html>
+

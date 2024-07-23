@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .series{
+            background-image: url(https://i0.wp.com/csginger.com/wp-content/uploads/2021/01/Outer_Banks_North_Carolina-07.jpg?resize=488%2C650&ssl=1);
+            background-size: 100vw 100vh;
+            height: 100vh;
+        }
+        .title{
+            justify-content: left;
+            color: white;
+            margin: 40px;
+            position: absolute;
+            bottom: 60px;
+            cursor: pointer;
+        }
+        .director {
+            color: rgb(5, 0, 0);
+            justify-content: left; 
+            
+            margin: 70px;
+            position: absolute;
+            bottom: 10px;   
+        }
+        .hidden {
+            display: none;
+            color: white;
+            margin: 10px;
+            position: absolute;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.7); 
+            padding: 10px;
+            width: 90%; 
+            
+        }        
+        .vm:hover  .hidden{  
+            display: block
+        }
+        
+        </style>
+</head>
+<body>
+    <main>
+        <div class="series">
+            <div class="vm">
+        <h1 class="title" >OUTER BANKS</h1>
+        <div  class="director">Kim Hee-won</div>
+        <div class="hidden">During a visit to his motherland, a Korean-Italian mafia lawyer <br>gives an unrivaled conglomerate a taste of its own medicine with <br>a side of justice. Watch all you want.</div>
+        </div>
+        </div>
+    </main>
+</body>
+</html>
